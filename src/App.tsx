@@ -59,7 +59,7 @@ function App() {
     const tomSortear = Math.floor(Math.random() * 12);
     console.log(tomSortear)
 
-    let resultado = tons.find(tom => tom.id == tomSortear)
+    let resultado = tons.find(tom => tom.id === tomSortear)
 
     defineTom(resultado)
   }
