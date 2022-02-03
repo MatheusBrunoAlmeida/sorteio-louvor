@@ -3,7 +3,6 @@ import { Box, CardTomTitle, CardTom, Title, ButtonSortearTom } from './style';
 
 function App() {
   const [tom, setTom] = useState('Tom')
-  const [tomSorteio, setTomSorteio] = useState({})
 
   const tons = [
     {
